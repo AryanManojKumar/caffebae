@@ -2,9 +2,9 @@
 
 Find your perfect cafe with a little help from AI.
 
-I built this because I was tired of scrolling through endless cafe listings without knowing which ones were actually worth visiting. CafeBae pulls real-time data from Swiggy and uses AI to help you filter through the noise. There's also a chat feature where you can tell the AI what you're looking for (vegetarian, budget-friendly, highly rated, etc.) and it'll highlight matching cafes for you.
-
-The coolest part? Click any cafe and the AI searches the web for actual reviews and recommendations, so you're not just seeing marketing fluff.
+Currently deployed: https://caffebae.pages.dev/
+- Backend: Render (Docker)
+- Frontend: Cloudflare Pages 
 
 ## What it does
 
