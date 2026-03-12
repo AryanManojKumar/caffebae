@@ -59,8 +59,8 @@ class CafeSearchAgent:
     def __init__(self, api_key: str):
         self.api_key = api_key
         os.environ["OPENAI_API_KEY"] = api_key
-        os.environ["OPENAI_API_BASE"] = "https://api.kie.ai/gemini-3-flash/v1"
-        os.environ["OPENAI_MODEL_NAME"] = "openai/gemini-3-flash"
+        os.environ["OPENAI_API_BASE"] = "https://api.kie.ai/gemini-3-pro/v1"
+        os.environ["OPENAI_MODEL_NAME"] = "openai/gemini-3-pro"
     
     def log(self, message, level="INFO"):
         colors = {
@@ -85,9 +85,9 @@ class CafeSearchAgent:
             
             # Create LLM instance
             llm = LLM(
-                model="openai/gemini-3-flash",
+                model="openai/gemini-3-pro",
                 api_key=self.api_key,
-                base_url="https://api.kie.ai/gemini-3-flash/v1"
+                base_url="https://api.kie.ai/gemini-3-pro/v1"
             )
             
             # Create search agent
